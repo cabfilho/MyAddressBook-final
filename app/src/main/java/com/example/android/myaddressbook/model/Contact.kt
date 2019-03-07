@@ -15,9 +15,11 @@
  */
 package com.example.android.myaddressbook.model
 
-import android.arch.persistence.room.Entity
-import android.arch.persistence.room.PrimaryKey
+import androidx.room.Entity
+import androidx.room.PrimaryKey
 
 @Entity(tableName = "contact_table")
-class Contact(var firstName: String,
-                            var lastName: String, var email: String?, @PrimaryKey(autoGenerate = true) var gid: Int = 0)
+data class Contact(var firstName: String,
+                   var lastName: String,
+                   var email: String?,
+                   @PrimaryKey(autoGenerate = true) var gid: Int = 0)

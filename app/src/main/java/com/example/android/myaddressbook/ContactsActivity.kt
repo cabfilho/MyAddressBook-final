@@ -19,11 +19,11 @@ import android.annotation.SuppressLint
 import android.content.Context
 import android.content.SharedPreferences
 import android.os.Bundle
-import android.support.v7.app.AlertDialog
-import android.support.v7.app.AppCompatActivity
-import android.support.v7.widget.DividerItemDecoration
-import android.support.v7.widget.RecyclerView
-import android.support.v7.widget.helper.ItemTouchHelper
+import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.DividerItemDecoration
+import androidx.recyclerview.widget.RecyclerView
+import androidx.recyclerview.widget.ItemTouchHelper
 import android.text.Editable
 import android.text.TextWatcher
 import android.util.Log
@@ -32,6 +32,8 @@ import android.view.*
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
+import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.ViewModelProviders
 import com.example.android.myaddressbook.model.Contact
 import com.google.gson.Gson
 import kotlinx.android.synthetic.main.activity_contacts.*
@@ -42,17 +44,19 @@ import org.json.JSONArray
 import org.json.JSONException
 import java.io.IOException
 import java.util.*
+import kotlin.collections.ArrayList
 
 class ContactsActivity : AppCompatActivity(), TextWatcher {
 
     private lateinit var mContacts: ArrayList<Contact>
-    private lateinit var mAdapter: ContactsAdapter
+
 
     private lateinit var mPrefs: SharedPreferences
 
     private lateinit var mFirstNameEdit: EditText
     private lateinit var mLastNameEdit: EditText
     private lateinit var mEmailEdit: EditText
+    private lateinit var contactsViewModel: ContactsViewModel
 
     private var mEntryValid = false
 
@@ -61,12 +65,22 @@ class ContactsActivity : AppCompatActivity(), TextWatcher {
         setContentView(R.layout.activity_contacts)
 
         mPrefs = getPreferences(Context.MODE_PRIVATE)
-        mContacts = loadContacts()
-        mAdapter = ContactsAdapter(mContacts)
+
+
+        //mContacts = loadContacts()
+        val adapter = contact_list.adapter
 
         setSupportActionBar(toolbar)
         setupRecyclerView()
 
+        contactsViewModel = ViewModelProviders.of(this).get(ContactsViewModel::class.java)
+
+        contactsViewModel.contactList.observe(this, androidx.lifecycle.Observer {list->
+
+            if (adapter is ContactsAdapter){
+                adapter.setNewList(list)
+            }
+        })
         fab.setOnClickListener { showAddContactDialog(-1) }
     }
 
@@ -74,10 +88,6 @@ class ContactsActivity : AppCompatActivity(), TextWatcher {
      * Loads the contacts from SharedPreferences, and deserializes them into
      * a Contact data type using Gson.
      */
-    private fun loadContacts(): ArrayList<Contact> {
-        val contactSet = mPrefs.getStringSet(CONTACT_KEY, HashSet())
-        return contactSet.mapTo(ArrayList()) { Gson().fromJson(it, Contact::class.java) }
-    }
 
     /**
      * Saves the contacts to SharedPreferences by serializing them with Gson.
@@ -96,7 +106,9 @@ class ContactsActivity : AppCompatActivity(), TextWatcher {
     private fun setupRecyclerView() {
         contact_list.addItemDecoration(DividerItemDecoration(this,
                 DividerItemDecoration.VERTICAL))
-        contact_list.adapter = mAdapter
+
+        contact_list.adapter = ContactsAdapter(mContacts,this)
+
 
         // Implements swipe to delete
         val helper = ItemTouchHelper(
@@ -112,7 +124,7 @@ class ContactsActivity : AppCompatActivity(), TextWatcher {
                                           direction: Int) {
                         val position = viewHolder.adapterPosition
                         mContacts.removeAt(position)
-                        mAdapter.notifyItemRemoved(position)
+                        contact_list.adapter?.notifyItemRemoved(position)
                         saveContacts()
                     }
                 })
@@ -180,7 +192,7 @@ class ContactsActivity : AppCompatActivity(), TextWatcher {
                     val editedContact = mContacts[contactPosition]
                     editedContact.email = mEmailEdit.text.toString()
                     mContacts[contactPosition] = editedContact
-                    mAdapter.notifyItemChanged(contactPosition)
+                   contact_list.adapter?.notifyItemChanged(contactPosition)
                 } else {
                     val newContact = Contact(
 
@@ -190,7 +202,7 @@ class ContactsActivity : AppCompatActivity(), TextWatcher {
                     )
 
                     mContacts.add(newContact)
-                    mAdapter.notifyItemInserted(mContacts.size)
+                    contact_list.adapter?.notifyItemInserted(mContacts.size)
                 }
                 saveContacts()
                 dialog.dismiss()
@@ -227,12 +239,12 @@ class ContactsActivity : AppCompatActivity(), TextWatcher {
             }
             R.id.action_sort_first -> {
                 mContacts.sortBy { it.firstName }
-                mAdapter.notifyDataSetChanged()
+                contact_list.adapter?.notifyDataSetChanged()
                 return true
             }
             R.id.action_sort_last -> {
                 mContacts.sortBy { it.lastName }
-                mAdapter.notifyDataSetChanged()
+                contact_list.adapter?.notifyDataSetChanged()
                 return true
             }
         }
@@ -248,7 +260,7 @@ class ContactsActivity : AppCompatActivity(), TextWatcher {
     private fun clearContacts() {
         mContacts.clear()
         saveContacts()
-        mAdapter.notifyDataSetChanged()
+        contact_list.adapter?.notifyDataSetChanged()
     }
 
     /**
@@ -269,7 +281,7 @@ class ContactsActivity : AppCompatActivity(), TextWatcher {
                 mContacts.add(contact)
             }
 
-            mAdapter.notifyDataSetChanged()
+            contact_list.adapter?.notifyDataSetChanged()
             saveContacts()
         } catch (e: JSONException) {
             e.printStackTrace()
@@ -331,7 +343,7 @@ class ContactsActivity : AppCompatActivity(), TextWatcher {
                 mEmailEdit.validateWith(validator = isEmail)
     }
 
-    private inner class ContactsAdapter internal constructor(
+  /*  private inner class ContactsAdapter internal constructor(
             private val mContacts: ArrayList<Contact>) :
             RecyclerView.Adapter<ContactsAdapter.ViewHolder>() {
 
@@ -340,29 +352,10 @@ class ContactsActivity : AppCompatActivity(), TextWatcher {
             val view = LayoutInflater.from(parent.context)
                     .inflate(R.layout.contact_list_item, parent, false)
             return ViewHolder(view)
-        }
+        }*/
 
-        override fun onBindViewHolder(
-                holder: ViewHolder, position: Int) {
-            val (firstName, lastName, email) = mContacts[position]
-            val fullName = "$firstName $lastName"
-            holder.nameLabel.text = fullName
-            holder.emailLabel.text = email
-        }
 
-        override fun getItemCount(): Int {
-            return mContacts.size
-        }
 
-        internal inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-            var nameLabel: TextView = itemView.textview_name
-            var emailLabel: TextView = itemView.textview_email
-
-            init {
-                itemView.setOnClickListener { showAddContactDialog(adapterPosition) }
-            }
-        }
-    }
 
     companion object {
 
