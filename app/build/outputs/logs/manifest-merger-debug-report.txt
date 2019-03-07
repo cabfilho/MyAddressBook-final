@@ -1,0 +1,256 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml:17:1-39:12
+INJECTED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml:17:1-39:12
+INJECTED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml:17:1-39:12
+INJECTED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml:17:1-39:12
+MERGED from [com.android.support:design:27.1.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\9d70f02b49a00302a6f48b73476665fd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\6e5c328d893f8f22270f72116eff39cd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\8fc27f1138de514ea6bb15129dccdd69\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\lifecycle-extensions-2.0.0-beta01.aar\7d6f143107fcb426b223a864677f8fc6\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0-beta01.aar\edc737a23b8a733c1aade023a34b3323\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.0.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-ktx-2.0.0.aar\7994287c8dc153c911012892c12928f5\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence.room:runtime:1.1.1] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e267e4b06f3178070cbec822b4eec12e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\b25fd847018a3e5960c4ad31aab6f979\AndroidManifest.xml:17:1-30:12
+MERGED from [com.android.support:support-v4:27.1.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\4988284bc0e97d68f372aea0a2c1cfb3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\2039af9d2fc5d5d298a2c052cc7067c1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\50077ef8223958adb63e9a69456777a7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\b25ddb12399268acfc35a8c082a8a295\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\c91419336a8b1c2c6e4909f9794cbeaa\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\5a82b08917d8b52d95eb5d40085dbe2f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\94a14d6d9c22a761fed04da3fcaa0601\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\2eb1f2a492fe1d519a43bee73bf86a18\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db-framework:1.1.1] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\db-framework-1.1.1.aar\26c28784712f9dcd3a9b1803a2b79fa1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db:1.1.1] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\db-1.1.1.aar\8597b2c9c0ae2f17df9199fa00a1eaaf\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\999f2dd1c7588db6bdda2b2fc72ddbe9\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\b4b12d4b744691d44d8855c3a4e80b1b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\04f5854486ac11234839e134a7821f0c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\a1aad4bce6f429c6323fd9bb448eaff1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\e9e3942e1b663f0abb3080832ec26939\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\30f79b7be2c2ea15588f2e89bca02ea2\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\edda23cd4d41eaca8f6b804a1d1ba776\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\lifecycle-process-2.0.0-beta01.aar\4ee5bf01b2453bcf1841e6c083068eec\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\lifecycle-service-2.0.0-beta01.aar\fb2e9564f1c84b487af513dbaaf3915d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0-beta01.aar\7cf689e66e0d6e2301f473735cfcdf6a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\media-1.0.0-beta01.aar\cb3073a9c6c789417d2867a27c58660f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0-beta01.aar\229e58f75fd8e7010262b08f0aa8df07\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0-beta01.aar\869dcd7b9988e090ff95bd9d73e99362\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\loader-1.0.0-beta01.aar\298d34f80a91e7aa739cb83e4c84f33f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0-beta01.aar\c72d0700a9a408caa36d416fd41e6c86\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0-beta01.aar\afcda371c143f8fada30a5d020db9772\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0-beta01.aar\5c418a8b333d29584c6fffc8db6e7d5d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0-beta01.aar\7cc5bf2110eab675369745e8a6145803\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\customview-1.0.0-beta01.aar\c4f4a67de23fe228ce11cbfd43deda1f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0-beta01.aar\3509f74aa5bf343658cb95d2d30628b4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0-beta01.aar\08ee93c28adff864996772be87b7aff9\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\core-1.0.0-beta01.aar\ac4a83dc16911c6557d69105562ca2f1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0-beta01.aar\77c936da900f192b5349743f9e72d4fd\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0-beta01.aar\82a4f17732b681e5ffd186dfde495b75\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0-beta01.aar\7c42603fd2b2bcabd4e515b0284bcf14\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0-beta01.aar\3f5cbe5fe8966f8220496e9858b1ab5b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\1a8645ac8f3cace3c31cab6d68eaa270\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0-beta01.aar\7801eb0180fde570057fe57ba3d7d917\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.documentfile:documentfile:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0-beta01.aar\480d15275ad535f04298ebc531f3b94d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0-beta01.aar\8a9a41f2c5cfdc8002f92511092dbf88\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\print-1.0.0-beta01.aar\76fd54844135aa08dc1a768ea01fdf7d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0-beta01.aar\c9503e8a96a33b21145c946d918a2aae\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0-beta01.aar\e3c831153b00584411387749313d370d\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml:17:1-39:12
+INJECTED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml:17:1-39:12
+INJECTED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml:17:1-39:12
+	package
+		ADDED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml:18:5-48
+		INJECTED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml:17:1-39:12
+		INJECTED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml:17:1-39:12
+		INJECTED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml:17:11-69
+application
+ADDED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml:20:5-37:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\8fc27f1138de514ea6bb15129dccdd69\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\8fc27f1138de514ea6bb15129dccdd69\AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\lifecycle-extensions-2.0.0-beta01.aar\7d6f143107fcb426b223a864677f8fc6\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\lifecycle-extensions-2.0.0-beta01.aar\7d6f143107fcb426b223a864677f8fc6\AndroidManifest.xml:22:5-23:19
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\b25fd847018a3e5960c4ad31aab6f979\AndroidManifest.xml:22:5-28:19
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\b25fd847018a3e5960c4ad31aab6f979\AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\lifecycle-process-2.0.0-beta01.aar\4ee5bf01b2453bcf1841e6c083068eec\AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\lifecycle-process-2.0.0-beta01.aar\4ee5bf01b2453bcf1841e6c083068eec\AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.core:core:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\core-1.0.0-beta01.aar\ac4a83dc16911c6557d69105562ca2f1\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\core-1.0.0-beta01.aar\ac4a83dc16911c6557d69105562ca2f1\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0-beta01.aar\7801eb0180fde570057fe57ba3d7d917\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0-beta01.aar\7801eb0180fde570057fe57ba3d7d917\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\core-1.0.0-beta01.aar\ac4a83dc16911c6557d69105562ca2f1\AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml:25:9-35
+	android:label
+		ADDED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml:23:9-41
+	android:roundIcon
+		ADDED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml:24:9-54
+	android:icon
+		ADDED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml:22:9-43
+	android:allowBackup
+		ADDED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml:21:9-35
+	android:theme
+		ADDED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml:26:9-40
+activity#com.example.android.myaddressbook.ContactsActivity
+ADDED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml:27:9-36:20
+	android:label
+		ADDED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml:29:13-45
+	android:theme
+		ADDED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml:30:13-56
+	android:name
+		ADDED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml:28:13-45
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml:31:13-35:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml:32:17-69
+	android:name
+		ADDED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml:32:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml:34:17-77
+	android:name
+		ADDED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml:34:27-74
+uses-sdk
+INJECTED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\9d70f02b49a00302a6f48b73476665fd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\9d70f02b49a00302a6f48b73476665fd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\6e5c328d893f8f22270f72116eff39cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\6e5c328d893f8f22270f72116eff39cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\8fc27f1138de514ea6bb15129dccdd69\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\8fc27f1138de514ea6bb15129dccdd69\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\lifecycle-extensions-2.0.0-beta01.aar\7d6f143107fcb426b223a864677f8fc6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\lifecycle-extensions-2.0.0-beta01.aar\7d6f143107fcb426b223a864677f8fc6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0-beta01.aar\edc737a23b8a733c1aade023a34b3323\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0-beta01.aar\edc737a23b8a733c1aade023a34b3323\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.0.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-ktx-2.0.0.aar\7994287c8dc153c911012892c12928f5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.0.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-ktx-2.0.0.aar\7994287c8dc153c911012892c12928f5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e267e4b06f3178070cbec822b4eec12e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e267e4b06f3178070cbec822b4eec12e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\b25fd847018a3e5960c4ad31aab6f979\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\b25fd847018a3e5960c4ad31aab6f979\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\4988284bc0e97d68f372aea0a2c1cfb3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\4988284bc0e97d68f372aea0a2c1cfb3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\2039af9d2fc5d5d298a2c052cc7067c1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\2039af9d2fc5d5d298a2c052cc7067c1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\50077ef8223958adb63e9a69456777a7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\50077ef8223958adb63e9a69456777a7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\b25ddb12399268acfc35a8c082a8a295\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\b25ddb12399268acfc35a8c082a8a295\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\c91419336a8b1c2c6e4909f9794cbeaa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\c91419336a8b1c2c6e4909f9794cbeaa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\5a82b08917d8b52d95eb5d40085dbe2f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\5a82b08917d8b52d95eb5d40085dbe2f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\94a14d6d9c22a761fed04da3fcaa0601\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\94a14d6d9c22a761fed04da3fcaa0601\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\2eb1f2a492fe1d519a43bee73bf86a18\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\2eb1f2a492fe1d519a43bee73bf86a18\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\db-framework-1.1.1.aar\26c28784712f9dcd3a9b1803a2b79fa1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\db-framework-1.1.1.aar\26c28784712f9dcd3a9b1803a2b79fa1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\db-1.1.1.aar\8597b2c9c0ae2f17df9199fa00a1eaaf\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\db-1.1.1.aar\8597b2c9c0ae2f17df9199fa00a1eaaf\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\999f2dd1c7588db6bdda2b2fc72ddbe9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\999f2dd1c7588db6bdda2b2fc72ddbe9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\b4b12d4b744691d44d8855c3a4e80b1b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\b4b12d4b744691d44d8855c3a4e80b1b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\04f5854486ac11234839e134a7821f0c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\04f5854486ac11234839e134a7821f0c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\a1aad4bce6f429c6323fd9bb448eaff1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\a1aad4bce6f429c6323fd9bb448eaff1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\e9e3942e1b663f0abb3080832ec26939\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\e9e3942e1b663f0abb3080832ec26939\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\30f79b7be2c2ea15588f2e89bca02ea2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\30f79b7be2c2ea15588f2e89bca02ea2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\edda23cd4d41eaca8f6b804a1d1ba776\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\edda23cd4d41eaca8f6b804a1d1ba776\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\lifecycle-process-2.0.0-beta01.aar\4ee5bf01b2453bcf1841e6c083068eec\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\lifecycle-process-2.0.0-beta01.aar\4ee5bf01b2453bcf1841e6c083068eec\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\lifecycle-service-2.0.0-beta01.aar\fb2e9564f1c84b487af513dbaaf3915d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\lifecycle-service-2.0.0-beta01.aar\fb2e9564f1c84b487af513dbaaf3915d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0-beta01.aar\7cf689e66e0d6e2301f473735cfcdf6a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0-beta01.aar\7cf689e66e0d6e2301f473735cfcdf6a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\media-1.0.0-beta01.aar\cb3073a9c6c789417d2867a27c58660f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\media-1.0.0-beta01.aar\cb3073a9c6c789417d2867a27c58660f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0-beta01.aar\229e58f75fd8e7010262b08f0aa8df07\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0-beta01.aar\229e58f75fd8e7010262b08f0aa8df07\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0-beta01.aar\869dcd7b9988e090ff95bd9d73e99362\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0-beta01.aar\869dcd7b9988e090ff95bd9d73e99362\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\loader-1.0.0-beta01.aar\298d34f80a91e7aa739cb83e4c84f33f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\loader-1.0.0-beta01.aar\298d34f80a91e7aa739cb83e4c84f33f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0-beta01.aar\c72d0700a9a408caa36d416fd41e6c86\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0-beta01.aar\c72d0700a9a408caa36d416fd41e6c86\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0-beta01.aar\afcda371c143f8fada30a5d020db9772\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0-beta01.aar\afcda371c143f8fada30a5d020db9772\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0-beta01.aar\5c418a8b333d29584c6fffc8db6e7d5d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0-beta01.aar\5c418a8b333d29584c6fffc8db6e7d5d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0-beta01.aar\7cc5bf2110eab675369745e8a6145803\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0-beta01.aar\7cc5bf2110eab675369745e8a6145803\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\customview-1.0.0-beta01.aar\c4f4a67de23fe228ce11cbfd43deda1f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\customview-1.0.0-beta01.aar\c4f4a67de23fe228ce11cbfd43deda1f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0-beta01.aar\3509f74aa5bf343658cb95d2d30628b4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0-beta01.aar\3509f74aa5bf343658cb95d2d30628b4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0-beta01.aar\08ee93c28adff864996772be87b7aff9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0-beta01.aar\08ee93c28adff864996772be87b7aff9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\core-1.0.0-beta01.aar\ac4a83dc16911c6557d69105562ca2f1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\core-1.0.0-beta01.aar\ac4a83dc16911c6557d69105562ca2f1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0-beta01.aar\77c936da900f192b5349743f9e72d4fd\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0-beta01.aar\77c936da900f192b5349743f9e72d4fd\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0-beta01.aar\82a4f17732b681e5ffd186dfde495b75\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0-beta01.aar\82a4f17732b681e5ffd186dfde495b75\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0-beta01.aar\7c42603fd2b2bcabd4e515b0284bcf14\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0-beta01.aar\7c42603fd2b2bcabd4e515b0284bcf14\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0-beta01.aar\3f5cbe5fe8966f8220496e9858b1ab5b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0-beta01.aar\3f5cbe5fe8966f8220496e9858b1ab5b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\1a8645ac8f3cace3c31cab6d68eaa270\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\1a8645ac8f3cace3c31cab6d68eaa270\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0-beta01.aar\7801eb0180fde570057fe57ba3d7d917\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0-beta01.aar\7801eb0180fde570057fe57ba3d7d917\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0-beta01.aar\480d15275ad535f04298ebc531f3b94d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0-beta01.aar\480d15275ad535f04298ebc531f3b94d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0-beta01.aar\8a9a41f2c5cfdc8002f92511092dbf88\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0-beta01.aar\8a9a41f2c5cfdc8002f92511092dbf88\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\print-1.0.0-beta01.aar\76fd54844135aa08dc1a768ea01fdf7d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\print-1.0.0-beta01.aar\76fd54844135aa08dc1a768ea01fdf7d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0-beta01.aar\c9503e8a96a33b21145c946d918a2aae\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0-beta01.aar\c9503e8a96a33b21145c946d918a2aae\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0-beta01.aar\e3c831153b00584411387749313d370d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0-beta01.aar\e3c831153b00584411387749313d370d\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\betoo\Downloads\android-using-kotlin-master\android-using-kotlin-master\MyAddressBook-final\app\src\main\AndroidManifest.xml
+provider#android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\b25fd847018a3e5960c4ad31aab6f979\AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\b25fd847018a3e5960c4ad31aab6f979\AndroidManifest.xml:25:13-68
+	android:multiprocess
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\b25fd847018a3e5960c4ad31aab6f979\AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\b25fd847018a3e5960c4ad31aab6f979\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\b25fd847018a3e5960c4ad31aab6f979\AndroidManifest.xml:24:13-83
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\lifecycle-process-2.0.0-beta01.aar\4ee5bf01b2453bcf1841e6c083068eec\AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\lifecycle-process-2.0.0-beta01.aar\4ee5bf01b2453bcf1841e6c083068eec\AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\lifecycle-process-2.0.0-beta01.aar\4ee5bf01b2453bcf1841e6c083068eec\AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\lifecycle-process-2.0.0-beta01.aar\4ee5bf01b2453bcf1841e6c083068eec\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0-beta01] C:\Users\betoo\.gradle\caches\transforms-1\files-1.1\lifecycle-process-2.0.0-beta01.aar\4ee5bf01b2453bcf1841e6c083068eec\AndroidManifest.xml:24:13-79
