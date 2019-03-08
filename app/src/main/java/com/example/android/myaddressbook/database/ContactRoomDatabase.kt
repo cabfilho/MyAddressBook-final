@@ -10,7 +10,7 @@ import com.example.android.myaddressbook.model.Contact
 
 
 
-@Database(entities = [ Contact::class ], version = 1 )
+@Database(entities = [ Contact::class ], version = 2,exportSchema = false )
 abstract class ContactRoomDatabase : RoomDatabase() {
     abstract fun contactDao(): RoomContactDao
 

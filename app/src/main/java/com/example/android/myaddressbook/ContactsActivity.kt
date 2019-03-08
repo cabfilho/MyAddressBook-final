@@ -16,6 +16,7 @@
 package com.example.android.myaddressbook
 
 import android.annotation.SuppressLint
+import android.app.Activity
 import android.content.Context
 import android.content.SharedPreferences
 import android.os.Bundle
@@ -32,6 +33,7 @@ import android.view.*
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
+import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
 import com.example.android.myaddressbook.model.Contact
@@ -66,7 +68,7 @@ class ContactsActivity : AppCompatActivity(), TextWatcher {
 
         mPrefs = getPreferences(Context.MODE_PRIVATE)
 
-
+        mContacts = arrayListOf()
         //mContacts = loadContacts()
         val adapter = contact_list.adapter
 
@@ -75,7 +77,7 @@ class ContactsActivity : AppCompatActivity(), TextWatcher {
 
         contactsViewModel = ViewModelProviders.of(this).get(ContactsViewModel::class.java)
 
-        contactsViewModel.contactList.observe(this, androidx.lifecycle.Observer {list->
+        contactsViewModel.contactList.observe(this, Observer { list->
 
             if (adapter is ContactsAdapter){
                 adapter.setNewList(list)
@@ -84,30 +86,30 @@ class ContactsActivity : AppCompatActivity(), TextWatcher {
         fab.setOnClickListener { showAddContactDialog(-1) }
     }
 
-    /**
-     * Loads the contacts from SharedPreferences, and deserializes them into
-     * a Contact data type using Gson.
-     */
 
-    /**
-     * Saves the contacts to SharedPreferences by serializing them with Gson.
-     */
-    private fun saveContacts() {
-        val editor = mPrefs.edit()
-        editor.clear()
-        val contactSet = mContacts.map { Gson().toJson(it) }.toSet()
-        editor.putStringSet(CONTACT_KEY, contactSet)
-        editor.apply()
+    private fun saveContacts(contact: Contact?, tpOperacao: String) {
+        if(contact != null && tpOperacao.equals("I")){
+
+            contactsViewModel.insert(contact)
+        }else if(contact != null && tpOperacao.equals("A")){
+            contactsViewModel.update(contact)
+        }else if(contact != null){
+            contactsViewModel.delete(contact)
+        }else if(tpOperacao.equals("T")){
+            contactsViewModel.deleteAll()
+        }
+
+
     }
 
-    /**
-     * Sets up the RecyclerView: empty data set, item dividers, swipe to delete.
-     */
+
     private fun setupRecyclerView() {
         contact_list.addItemDecoration(DividerItemDecoration(this,
                 DividerItemDecoration.VERTICAL))
 
-        contact_list.adapter = ContactsAdapter(mContacts,this)
+        contact_list.adapter = ContactsAdapter(mContacts,this, {
+            showAddContactDialog(it)
+        })
 
 
         // Implements swipe to delete
@@ -123,22 +125,17 @@ class ContactsActivity : AppCompatActivity(), TextWatcher {
                     override fun onSwiped(viewHolder: RecyclerView.ViewHolder,
                                           direction: Int) {
                         val position = viewHolder.adapterPosition
+                        var contato = mContacts.get(position)
+
                         mContacts.removeAt(position)
                         contact_list.adapter?.notifyItemRemoved(position)
-                        saveContacts()
+                        saveContacts(contato, "E")
                     }
                 })
 
         helper.attachToRecyclerView(contact_list)
     }
 
-    /**
-     * Shows the AlertDialog for entering a new contact and performs validation
-     * on the user input.
-     *
-     * @param contactPosition The position of the contact being edited, -1
-     * if the user is creating a new contact.
-     */
     @SuppressLint("InflateParams")
     private fun showAddContactDialog(contactPosition: Int) {
         // Inflates the dialog view
@@ -192,19 +189,22 @@ class ContactsActivity : AppCompatActivity(), TextWatcher {
                     val editedContact = mContacts[contactPosition]
                     editedContact.email = mEmailEdit.text.toString()
                     mContacts[contactPosition] = editedContact
-                   contact_list.adapter?.notifyItemChanged(contactPosition)
+                    contact_list.adapter?.notifyItemChanged(contactPosition)
+                    saveContacts(mContacts.get(contactPosition), "A")
                 } else {
                     val newContact = Contact(
 
                             mFirstNameEdit.text.toString(),
                             mLastNameEdit.text.toString(),
-                            mEmailEdit.text.toString()
+                            mEmailEdit.text.toString(),
+                            0
                     )
 
                     mContacts.add(newContact)
+                    saveContacts(newContact, "I")
                     contact_list.adapter?.notifyItemInserted(mContacts.size)
                 }
-                saveContacts()
+
                 dialog.dismiss()
             } else {
                 // Otherwise, shows an error Toast
@@ -259,7 +259,7 @@ class ContactsActivity : AppCompatActivity(), TextWatcher {
      */
     private fun clearContacts() {
         mContacts.clear()
-        saveContacts()
+        saveContacts(null, "T")
         contact_list.adapter?.notifyDataSetChanged()
     }
 
@@ -276,13 +276,14 @@ class ContactsActivity : AppCompatActivity(), TextWatcher {
                 val contact = Contact(
                         contactJson.getString("first_name"),
                         contactJson.getString("last_name"),
-                        contactJson.getString("email"))
+                        contactJson.getString("email"),0)
                 Log.d(TAG, "generateContacts: " + contact.toString())
                 mContacts.add(contact)
+                saveContacts(contact,"I")
             }
 
             contact_list.adapter?.notifyDataSetChanged()
-            saveContacts()
+
         } catch (e: JSONException) {
             e.printStackTrace()
         }

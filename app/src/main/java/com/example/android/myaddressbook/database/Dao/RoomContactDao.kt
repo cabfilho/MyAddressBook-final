@@ -9,10 +9,16 @@ import com.example.android.myaddressbook.model.Contact
 interface RoomContactDao {
     @Query("select * from contact_table")
     fun listAll(): LiveData<List<Contact>>
+
     @Insert
     fun insert(contact: Contact)
+
     @Delete
     fun delete(contact: Contact)
+
     @Update
-    fun update(contact: Contact)
+    fun update(vararg contact: Contact)
+
+    @Query("DELETE FROM contact_table")
+    fun deleteAll()
 }

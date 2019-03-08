@@ -22,4 +22,4 @@ import androidx.room.PrimaryKey
 data class Contact(var firstName: String,
                    var lastName: String,
                    var email: String?,
-                   @PrimaryKey(autoGenerate = true) var gid: Int = 0)
+                   @PrimaryKey(autoGenerate = true) var id: Int)

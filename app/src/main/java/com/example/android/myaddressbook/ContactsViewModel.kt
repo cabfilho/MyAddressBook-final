@@ -36,6 +36,17 @@ class ContactsViewModel (application: Application): AndroidViewModel(application
             }
         }
 
+        fun deleteAll(){
+            DoAsync {
+                repository.deleteAll()
+            }
+        }
+        fun update(contact: Contact){
+            DoAsync {
+                repository.update(contact)
+            }
+        }
+
         class DoAsync(val action: ()->Unit): AsyncTask<Unit, Unit, Unit>() {
 
             init {

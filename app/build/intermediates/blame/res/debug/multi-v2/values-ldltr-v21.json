@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Caixa\\MyAddressBook\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
+            "outputFile": "/Users/carlos.madeirafilho/Downloads/MyAddressBook-final/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Caixa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.0.0.aar\\424ba37012b8294fd993aa60029954aa\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "source": "/Users/carlos.madeirafilho/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0-alpha02.aar/21c5b5cb8998aae0b3518f16b0f01c4b/res/values-ldltr-v21/values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

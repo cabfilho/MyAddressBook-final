@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Caixa\\MyAddressBook\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rXC\\values-en-rXC.xml",
+            "outputFile": "/Users/carlos.madeirafilho/Downloads/MyAddressBook-final/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Caixa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.0.0.aar\\424ba37012b8294fd993aa60029954aa\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "/Users/carlos.madeirafilho/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0-alpha02.aar/21c5b5cb8998aae0b3518f16b0f01c4b/res/values-en-rXC/values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Caixa\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0.aar\\00b7f4b31a683b639018903d4ca38d33\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "/Users/carlos.madeirafilho/.gradle/caches/transforms-1/files-1.1/core-1.1.0-alpha04.aar/7cc126f8c454b7f6b6fc3b9267daf766/res/values-en-rXC/values-en-rXC.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

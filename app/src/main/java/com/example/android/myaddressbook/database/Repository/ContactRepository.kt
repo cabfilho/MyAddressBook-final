@@ -26,4 +26,12 @@ class ContactRepository(private val contactDao: RoomContactDao) {
         contactDao.delete(contact)
     }
 
+    fun update(contact: Contact){
+        contactDao.update(contact)
+    }
+    fun deleteAll(){
+        contactDao.deleteAll()
+    }
+
+
 }
